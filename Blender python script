@@ -1,0 +1,4 @@
+import bpy
+
+for i, obj in enumerate(bpy.context.selected_objects):
+    obj.name = f"MyObject_{i+1}"
