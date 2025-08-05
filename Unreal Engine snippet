@@ -1,8 +1,0 @@
-void AMyVRItem::Interact()
-{
-    if (bCanPickUp)
-    {
-        AttachToComponent(MotionController, FAttachmentTransformRules::KeepWorldTransform);
-        bIsHeld = true;
-    }
-}
